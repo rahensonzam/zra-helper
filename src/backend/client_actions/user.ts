@@ -185,7 +185,7 @@ export async function login({
         }
 
         const loginRequest = {
-          url: `${ZraDomain}/loginAction`,
+          url: `${ZraDomain}/login`,
           data: {
             username: client.username,
             password: client.password,
